@@ -1,0 +1,94 @@
+.user-avatar{
+	width: 112px;
+	height: 112px;
+}
+
+.big-quick-fact{
+	font-weight: bold;
+	text-shadow:  1px 1px 2px #A9B0B7;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+
+.modal-title{
+	margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-cropper>img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+/*.services {
+    padding: 50px 0;
+}*/
+.bg-red {
+    color: #fff;
+    background-color: #AC2B37;
+}
+
+.btn-grey {
+    color: #fff;
+    background-color: #A9B0B7;
+}
+
+.bg-img{
+  background-image: url("img/worldstar.jpg");
+}
+
+.btn-reg{
+  width: 140px;
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+    height: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
+}
+.searchable-container{margin:20px 0 0 0}
+.searchable-container label.btn-default.active{background-color:#007ba7;color:#FFF}
+.searchable-container label.btn-default{width:90%;border:1px solid #efefef;margin:5px; box-shadow:5px 8px 8px 0 #ccc;}
+.searchable-container label .bizcontent{width:100%;}
+.searchable-container .btn-group{width:90%}
+.searchable-container .btn span.glyphicon{
+    opacity: 0;
+}
+.searchable-container .btn.active span.glyphicon {
+    opacity: 1;
+}
+  
+.advisor-img {
+    margin-top:20px;
+}
+
